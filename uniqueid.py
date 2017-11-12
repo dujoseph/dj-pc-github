@@ -1,15 +1,16 @@
 #!/usr/bin/python2.7
 # By Dukel Joseph
-# This module will read the UID from a text file
+# This module will read the UID in decimal value from a text file
 # Increament it by one return the result
 # Save the the result by overwriting the old value from the text file
+
+
 import os
 
 class uniqueID(object):
     uidic = {}
     UID = ""
-    
-    def __init__(self):
+        def __init__(self):
         pass
     def inUID(self, inc):
         # result = 1
